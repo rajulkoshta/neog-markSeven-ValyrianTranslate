@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 
 :root {
-    --primary-color:#D97706 ;
-    --off-yellow:#FEA82F;
+    --primary-color:#000000 ;
+    --grey :#F9FAFB;
     --secondary-color:#FFFBEB;
-    --off-white: #F3F4F6;
-    --black: #333333;
     --width-break: 600px;
     
 }
@@ -13,7 +11,7 @@
 body{
     margin: 0 0;
     font-family: 'Cinzel Decorative', cursive;
-    background-color: var(--secondary-color);
+    background-color: var(--grey);
 }
 
  
@@ -89,7 +87,7 @@ main {
     margin: 2rem auto 2rem auto;
 }
 .btn-primary:hover{
-    background-color: var(--off-yellow);
+    background-color: #4B5563;
 }
 
 

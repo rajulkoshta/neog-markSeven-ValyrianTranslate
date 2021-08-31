@@ -1,10 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 
-root{
-
+:root {
+    --primary-color: #FBBF24;
+    --off-yellow:#FCD34D;
+    --secondary-color:#FFFBEB;
+    --off-white: #F3F4F6;
+    --black: #333333;
+    --width-break: 600px;
+    
 }
 
 body{
     margin: 0 0;
     font-family: 'Cinzel Decorative', cursive;
 }
+
+ 
+
+/* nav  */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--black);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow:hidden;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* header  */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin:6rem auto 0rem;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    color: var(--black);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/* main  */
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}    
+
+
+#txt-input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 15vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}    
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--black);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    font-family: 'Pacifico', cursive;
+    margin: 2rem auto 2rem auto;
+}
+.btn-primary:hover{
+    background-color: var(--off-yellow);
+}
+
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    margin: 2rem auto 2rem auto;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}    
+
+/* footer  */
+
+.footer {
+    width: 100%;
+    padding: 1rem 0rem;
+    background-color: var(--primary-color);
+    color: var(--black);
+    text-align: center;
+}
+
+.footer-header {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer-description {
+    margin: auto;
+    max-width: var(--width-break);
+    letter-spacing: .1rem;
+}
+
+
+.footer .link {
+    color: var(--black);
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+

@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valyrian | Translate</title>
-    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <link rel="icon" type="image/png" href="images/icon.png" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <nav class="navigation container">
+        <div class="nav-brand">Valyrian Speak</div>
+    </nav>
 
+    <header>
+        <img class="hero-img" src="images/headerhero.svg" alt="headerhero">
+        <h1 class="hero-heading">Valyrianese <span class="heading-inverted">Translate to valyrian</span></h1>
+    </header>
 
+    <main>
+        <textarea id="txt-input"
+            placeholder="Put your message here which you want to convert to banana languague"></textarea>
+        <button class="btn-primary" id="btn-translate">Translate to Valyrian</button>
+        <div>Your translate will appear here 👇</div>
+        <div id="output"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-header">About</div>
+        <div class="footer-description">The Valyrian languages are a fictional language family in the A Song of Ice and
+            Fire series of fantasy novels by George R. R. Martin, and in their television adaptation Game of Thrones.
+            For the TV series, linguist David J. Peterson created the High Valyrian language, as well as the derivative
+            language Astapori Valyrian, based on the fragments given in the novels.</div>
+            <ul class="list-non-bullet">
+                <li class="list-item-inline">
+                    <a class="link" href="https://github.com/rajulkoshta">github</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://twitter.com/RajulKoshta">twitter</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://www.linkedin.com/in/rajulkoshta/">LinkedIn</a>
+                </li>
+            </ul>
+    </footer>
 
     <script src="app.js"></script>
 </body>
+
 </html>

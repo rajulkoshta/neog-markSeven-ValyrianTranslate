@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 
 :root {
-    --primary-color: #FBBF24;
-    --off-yellow:#FCD34D;
+    --primary-color:#D97706 ;
+    --off-yellow:#FEA82F;
     --secondary-color:#FFFBEB;
     --off-white: #F3F4F6;
     --black: #333333;
@@ -13,6 +13,7 @@
 body{
     margin: 0 0;
     font-family: 'Cinzel Decorative', cursive;
+    background-color: var(--secondary-color);
 }
 
  
@@ -21,7 +22,7 @@ body{
 
 .navigation {
     background-color: var(--primary-color);
-    color: var(--black);
+    color: var(--secondary-color);
     padding: 1rem;
     position: fixed;
     top: 0;
@@ -79,12 +80,12 @@ main {
 .btn-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: var(--black);
+    color: var(--secondary-color);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
     font-size: large;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Cinzel Decorative', cursive;
     margin: 2rem auto 2rem auto;
 }
 .btn-primary:hover{
@@ -96,6 +97,7 @@ main {
     box-sizing: border-box;
     width: 100%;
     min-height: 10vh;
+    background-color: white;
     max-height: 20vh;
     margin: 2rem auto 2rem auto;
     overflow: scroll;
@@ -108,7 +110,7 @@ main {
     width: 100%;
     padding: 1rem 0rem;
     background-color: var(--primary-color);
-    color: var(--black);
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -125,7 +127,7 @@ main {
 
 
 .footer .link {
-    color: var(--black);
+    color: var(--secondary-color);
 }
 
 .footer ul {
